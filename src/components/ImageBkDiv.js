@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 const StyledDiv = styled.div`
   background-image: url({props.nasa.url});
-  color: white;
+  color: dodgerblue;
 `;
 
 function ImageBkDiv(props) {
