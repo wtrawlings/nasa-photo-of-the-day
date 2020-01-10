@@ -2,7 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const descriptionDiv = styled.p`
+const descriptionP = styled.p`
   color: white;
   background-color: black;
   max-width: 85%;
@@ -12,7 +12,7 @@ const descriptionDiv = styled.p`
 function Description(props) {
   return (
     <div>
-      <p> {props.description} </p>
+      <descriptionP> {props.description} </descriptionP>
     </div>
   );
 }

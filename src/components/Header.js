@@ -1,4 +1,4 @@
-/*this is the H1 Title Text and DATE on top of the image holding div*/
+/*this is the H2 Title Text and DATE on top of the image holding div*/
 import React from "react";
 
 function Header(props) {

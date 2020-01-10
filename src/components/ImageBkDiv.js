@@ -13,6 +13,8 @@ const StyledDiv = styled.div`
   max-width: 900px;
 `;
 
+
+
 function ImageBkDiv(props) {
   console.log(props);
   return (
