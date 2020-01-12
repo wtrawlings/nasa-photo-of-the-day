@@ -7,17 +7,24 @@ import styled from "styled-components";
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 const StyledDiv = styled.div`
-  background-image: url({props.nasa.url});
-  color: white;
-  background-color: darkblue;
+  background-image: url("{nasa.url}");
+  color: grey;
+  border: 2px solid red;
+  //background-color: darkblue;//
   max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 10px auto;
+  padding: 20px;
 `;
 
 
 
 function ImageBkDiv(props) {
-  console.log(props);
+  console.log(props.nasa.url);
   return (
+  
     <StyledDiv>
       <Header date={props.nasa.date} title={props.nasa.title} />
       <Description description={props.nasa.explanation} />

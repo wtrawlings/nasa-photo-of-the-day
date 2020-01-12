@@ -3,15 +3,20 @@ import styled from "styled-components";
 
 
 const ImageDiv = styled.div`
-  max-width: 50%;
+  width: 100%;
+  margin: 20px auto;
 `;
-
+const ImageOne = styled.img`
+  max-width: 100%;
+`;
 
 function Image(props) {
   console.log(props);
   return (
     <ImageDiv className = "imageDiv">
-      <img src={props.image} alt={props.title}/>
+      
+      <ImageOne src={props.image} alt={props.title} />
+      
     </ImageDiv>
   );
 }

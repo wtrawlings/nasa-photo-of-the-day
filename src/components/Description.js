@@ -3,15 +3,13 @@ import React from "react";
 import styled from "styled-components";
 
 const DescriptionP = styled.p`
-  color: orange;
+  color: white;
   background-color: black;
-  border-radius: 50%;
-  shape-outside: circle(50%);
-  width: 600px;
-  height: 600px;
+  border-radius: 20px;
+
   
   margin: 10px auto;
-  padding-box: 5px;
+  padding: 20px;
 `;
 
 function Description(props) {
