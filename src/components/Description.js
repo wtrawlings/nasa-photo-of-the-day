@@ -2,17 +2,22 @@
 import React from "react";
 import styled from "styled-components";
 
-const descriptionP = styled.p`
-  color: white;
+const DescriptionP = styled.p`
+  color: orange;
   background-color: black;
-  max-width: 85%;
-  border-radius: 20px;
+  
+  shape-outside: circle(50%);
+  width: 600px;
+  height: 600px;
+  
+  margin: 10px auto;
+  padding-box: 5px;
 `;
 
 function Description(props) {
   return (
     <div>
-      <descriptionP> {props.description} </descriptionP>
+      <DescriptionP> {props.description} </DescriptionP>
     </div>
   );
 }
