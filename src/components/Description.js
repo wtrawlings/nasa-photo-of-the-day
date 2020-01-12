@@ -5,7 +5,7 @@ import styled from "styled-components";
 const DescriptionP = styled.p`
   color: orange;
   background-color: black;
-  
+  border-radius: 50%;
   shape-outside: circle(50%);
   width: 600px;
   height: 600px;
